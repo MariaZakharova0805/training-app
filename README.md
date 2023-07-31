@@ -1,6 +1,7 @@
 # Monster Training app
-<a href="https://training-sigma.vercel.app/" target="_blank">![Project illustartion](https://github.com/MariaZakharova0805/training-app/raw/main/screenshot.jpg)</a>
 Приложение для тренировок
+<a href="https://training-sigma.vercel.app/" target="_blank">![Project illustartion](https://github.com/MariaZakharova0805/training-app/raw/main/screenshot.jpg)</a>
+
 
 ## Деплой
 <a href="https://training-sigma.vercel.app/" target="_blank">www.monster-training.app</a>
@@ -50,7 +51,7 @@ $ npm run dev
 $ npm run build
 ```
 
-## Зависимости
+### Зависимости
    - @emotion/react
    - @emotion/styled
    - @mui/icons-material
