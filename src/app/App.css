@@ -1,0 +1,11 @@
+.MuiPopover-paper {
+  max-height: 200px !important;
+  /* Определяет максимальную высоту списка */
+  overflow-y: auto !important;
+  /* Добавляет вертикальный скролл, если список превышает максимальную высоту */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

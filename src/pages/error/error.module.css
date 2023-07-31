@@ -1,0 +1,28 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+
+}
+
+.container {
+    background: center top / contain no-repeat url('../../assets/dialog.png');
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    padding-top: 20px;
+}
+.container p {
+    padding: 0 0 10px;
+    margin: 0;
+}
+.container a {
+    text-decoration: none;
+    color: white;
+}

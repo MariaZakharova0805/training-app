@@ -1,0 +1,35 @@
+.grid {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: auto;
+    gap: 20px;
+    max-width: 812px;
+}
+
+.grid_item {
+    width: 200px;
+    margin: 0 auto;
+
+}
+
+.img {
+    display: block;
+    width: 200px;
+    margin: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+@media (min-width:440px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:950px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }
+}

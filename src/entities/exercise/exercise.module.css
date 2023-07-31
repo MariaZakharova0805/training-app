@@ -1,0 +1,29 @@
+.container {
+    margin-bottom: 50px;
+}
+
+.head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    margin: 0;
+}
+
+.amount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.block,
+.amount {
+    margin-bottom: 20px;
+}
+
+.head_image {
+    height: 200px;
+}

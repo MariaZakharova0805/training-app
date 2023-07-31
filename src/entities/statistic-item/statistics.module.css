@@ -1,0 +1,41 @@
+.diagram {
+    padding-bottom: 4px;
+    width: 100%;
+    margin: 0 auto;
+    /* height: 200px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background:
+        linear-gradient(mediumvioletred, transparent 1px);
+    background-size: 10px 10px;
+    background-position: center center;
+    border: 1px solid mediumvioletred;
+}
+
+.diagram_line {
+    height: 200px;
+    width: 2px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.diagram_line p {
+    line-height: 10px;
+    font-size: 10px;
+    margin-left: 3px;
+    margin-bottom: -1px;
+    padding: 0;
+}
+
+.bar {
+    font-size: 12px;
+    width: fit-content;
+    background-color: blue;
+    border-radius: 100% 0% 100% 0% / 11% 100% 0% 89%;
+    color: white;
+    text-align: center;
+    margin-right: 5px;
+}

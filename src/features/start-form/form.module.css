@@ -1,0 +1,71 @@
+.container {
+    position: fixed;
+    z-index: 60;
+    top: 0;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    background-color: #6b8daf92;
+}
+
+.window {
+    background-color: white;
+    width: 90%;
+    max-width: 700px;
+    height: fit-content;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: -1px 0px 28px 6px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -1px 0px 28px 6px rgba(34, 60, 80, 0.2);
+    box-shadow: -1px 0px 28px 6px rgba(34, 60, 80, 0.2);
+}
+
+
+.window_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.window_header p {
+    font-weight: 600;
+}
+
+.img {
+    width: 60px;
+    margin-right: 40px;
+}
+
+.img_sm {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (min-width:760px) {
+    .window {
+        width: 70%;
+        font-size: 20px;
+        padding: 20px 5px 30px;
+    }
+
+    .img {
+        width: 100px;
+    }
+
+}
+
+.hiddenSlide {
+    display: block;
+    visibility: hidden;
+}
