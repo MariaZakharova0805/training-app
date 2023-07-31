@@ -2,6 +2,8 @@ import c from './change-image.module.css'
 import { useActions } from '../../shared/hooks/use-actions'
 import { useTypedSelector } from '../../shared/hooks/use-typed-selector'
 import { imageItems } from '../../shared/consts'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 export const ChangeImage = () => {
     const { trainingData } = useTypedSelector(state => state.users)
@@ -15,9 +17,16 @@ export const ChangeImage = () => {
     return (
         <div className={c.grid}>
             {imageItems.map(img => <div key={img.id} className={c.grid_item}>
-                <img src={img.img} alt='monster' className={c.img}
+                <LazyLoadImage
+                    key='your_image'
+                    alt='monster'
+                    effect="blur"
+                    src={img.img}
+                    className={c.img}
+                    placeholderSrc={img.img}
                     onClick={() => updateImage(img.value)}
-                /></div>)}
+                />
+            </div>)}
         </div>
     )
 }

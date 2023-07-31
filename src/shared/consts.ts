@@ -10,13 +10,13 @@ import img8 from '../assets/monsters/8.png'
 import img9 from '../assets/monsters/9.png'
 
 export const imageItems = [
-    { id: nanoid(), value: '1.png', img: img1, data: '1' },
-    { id: nanoid(), value: '2.png', img: img2, data: '2' },
-    { id: nanoid(), value: '3.png', img: img3, data: '3' },
-    { id: nanoid(), value: '4.png', img: img4, data: '4' },
-    { id: nanoid(), value: '5.png', img: img5, data: '5' },
-    { id: nanoid(), value: '6.png', img: img6, data: '6' },
-    { id: nanoid(), value: '7.png', img: img7, data: '7' },
-    { id: nanoid(), value: '8.png', img: img8, data: '8' },
-    { id: nanoid(), value: '9.png', img: img9, data: '9' }
+    { id: nanoid(), value: '1.png', img: img1, alt:'Сильный злобный монстр' },
+    { id: nanoid(), value: '2.png', img: img2, alt:'Зубастый монстр' },
+    { id: nanoid(), value: '3.png', img: img3, alt:'Одноглазый добрый монстр' },
+    { id: nanoid(), value: '4.png', img: img4, alt:'Одногласный монстр восьминог' },
+    { id: nanoid(), value: '5.png', img: img5, alt:'Одноглазый веселый монстрик' },
+    { id: nanoid(), value: '6.png', img: img6, alt:'Ворчилвый синий монстр' },
+    { id: nanoid(), value: '7.png', img: img7, alt:'Растерянный монстр-слизняк' },
+    { id: nanoid(), value: '8.png', img: img8, alt:'Милый синий моснтр-жижа' },
+    { id: nanoid(), value: '9.png', img: img9, alt:'Зубыстый монстр-улитка' }
 ]

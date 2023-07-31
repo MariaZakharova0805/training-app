@@ -35,19 +35,19 @@ export const Statistics: FC<WeightProps> = ({ header, num, param }) => {
 
   const updateUserData = () => {
     let newTrainingData = trainingData[0];
-    if (param === 'weightInfo' && newWData > 0) {
+    if (param === 'weightInfo' && newWData > 29 && newWData < 190) {
       newTrainingData.weightInfo.push(Number(newWData));
       setNums(newTrainingData.weightInfo);
-    } else if (param === 'waistInfo'&& newWData > 0) {
+    } else if (param === 'waistInfo'&& newWData > 49 && newWData < 190) {
       newTrainingData.waistInfo.push(Number(newWData));
       setNums(newTrainingData.waistInfo);
-    } else if (param === 'hipsInfo'&& newWData > 0) {
+    } else if (param === 'hipsInfo'&& newWData > 90 && newWData < 190) {
       newTrainingData.hipsInfo.push(Number(newWData));
       setNums(newTrainingData.hipsInfo);
-    } else if (param === 'bicepsInfo'&& newWData > 0) {
+    } else if (param === 'bicepsInfo'&& newWData > 3 && newWData < 190) {
       newTrainingData.bicepsInfo.push(Number(newWData));
       setNums(newTrainingData.bicepsInfo);
-    } else if( newWData <= 0) {
+    } else {
       alert('Введите корретное значение')
     }
     addUsersData(newTrainingData);
