@@ -11,7 +11,6 @@
 - React
 - Redux
 - MUI
-- LovalStorage
 - JS
 - CSS
 
